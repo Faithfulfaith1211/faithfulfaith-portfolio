@@ -1,0 +1,16 @@
+.skills {
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.skills h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #a970ff;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px
+}
